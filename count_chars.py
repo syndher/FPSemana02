@@ -4,6 +4,5 @@ letras = frase.count("")
 palavras_frase = {}
 
 for palavra in frase:
-    b = len(palavra)
-    palavras_frase[str(palavra), b]
+    palavras_frase[palavra] = len(palavra)
 print(palavras_frase)
