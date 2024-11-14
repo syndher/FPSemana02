@@ -6,7 +6,8 @@ for letra in palavra1:
 
 for letra in palavra2:
     if letra in palavra1:
-        conjunto += letra
+        if letra not in conjunto:
+            conjunto += letra
         
 print(palavra1)
 print(palavra2)
